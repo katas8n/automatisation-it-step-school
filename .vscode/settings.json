@@ -1,0 +1,8 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.debug.settings.onBuildFailureProceed": false,
+    "java.project.sourcePaths": [
+        "demo/src/test/java/com/example"
+    ],
+    "java.project.outputPath": "demo",
+}

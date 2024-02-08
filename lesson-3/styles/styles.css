@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+tr,
+td {
+    border: 1px solid gray;
+}
+
+td {
+    width: 5em;
+    text-align: center;
+}
+
+.img {
+    width: 100%;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: .8em 2.6em;
+    margin-top: 2em;
+    background: darkmagenta;
+    color: aliceblue;
+    border: none;
+    transition: 300ms ease-in-out;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 3px 4px 3px magenta;
+    transform: scale(1.1);
+    position: relative;
+
+}
+
+header,
+footer {
+    display: flex;
+    padding: 2em;
+}
+
+header {
+    justify-content: space-around;
+}
+
+footer {
+    justify-content: center;
+}
+
+p {
+    margin-top: 1em;
+}
+
+input[placeholder="Searching"] {
+    color: red;
+}

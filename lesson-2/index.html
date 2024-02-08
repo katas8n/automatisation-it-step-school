@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Lesson-2</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <li class="nav-li">Home</li>
+            <li class="nav-li" id="main-catalog">Catalog</li>
+            <li class="nav-li">Login</li>
+        </nav>
+    </header>
+    <!-- TAG -->
+    <!-- block && inline  -->
+    <h1>Hello world!</h1>
+    <h1>Hello world!</h1>
+    <h1>Hello world!</h1>
+    <h1>Hello world!</h1>
+    <h1>Hello world!</h1>
+    <h1>Hello world!</h1>
+    <h1>Hello world!</h1>
+    <h1>Hello world!</h1>
+    <h1>Hello world!</h1>
+    <h3>World world!</h3>
+
+    <main>
+        <form id="form-submit" method="post">
+            <!-- class, id, tag -->
+    
+            <!-- wrapper -->
+            <div>
+                <input name="email" type="text">
+            </div>
+    
+            <div>
+                <input name="password" type="password">
+            </div>
+    
+            <div>
+                <input type="date">
+            </div>
+    
+            <div>
+                <button>Send</button>
+            </div>
+        </form>
+
+    </main>
+
+    <footer>
+        <nav>
+            <a href="#">A</a>
+            <a href="#">B</a>
+            <a href="#">C</a>
+            <a href="#">D</a>
+        </nav>
+    </footer>
+
+
+    <i>Here is a link which lead us to google.com:</i> <a href="https://google.com">Google</a>
+    <strong>Hello!</strong>
+
+    <script>
+        const formSubmit = document.querySelector("#form-submit");
+        console.log('[formSubmit]', formSubmit);
+
+        formSubmit.addEventListener("submit", (e) => {
+
+            e.preventDefault();
+            console.log('[window.url]', window.location);
+        })
+    </script>
+</body>
+</html>

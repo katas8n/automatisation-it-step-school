@@ -1,0 +1,26 @@
+* {
+    color: aliceblue;
+    padding: 0;
+    margin: 0;
+}
+
+header,
+footer {
+    background: darkmagenta;
+    padding: 2em;
+}
+
+section {
+    display: flex;
+    height: 90vh;
+}
+
+aside {
+    background: violet;
+    width: 40%;
+}
+
+main {
+    background: fuchsia;
+    width: 100%;
+}
